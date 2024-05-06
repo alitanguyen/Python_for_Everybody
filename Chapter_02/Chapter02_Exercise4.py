@@ -16,24 +16,21 @@ type (of the value of the expression).
 Use the Python interpreter to check your answers.
 """
 
-width = int(input('width = '))
-17
-height = float(input('height = '))
-12.0
+width = 17
+height = 12
 
 ### Calculate & print the result 
-print(width//2)
-type(width//2)
+value1 = width//2
+print('width//2 =', value1)
 
-print(width/2.0)
-type(width/2.0)
+value2 = width/2.0
+print('width/2.0 =', value2)
 
-print(height/3)
-type(height/3)
+value3 = height/3
+print('height/3 =', value3)
 
-print(1 + 2 * 5)
-type(1 + 2 * 5)
-
+value4 = 1 + 2 * 5
+print('1 + 2 * 5 =', value4)
 
 
 
