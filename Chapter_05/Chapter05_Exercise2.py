@@ -63,7 +63,7 @@ while True:
        print('Invalid input')
 
 ##########################################################
-# MISTAKE I HAVDE MADE 
+# MISTAKE I HAVE MADE 
 ##########################################################
 
 total = 0 
