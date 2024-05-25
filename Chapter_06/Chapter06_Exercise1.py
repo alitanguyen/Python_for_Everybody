@@ -1,4 +1,4 @@
-#Chapter 5: Strings
+#Chapter 6: Strings
 """
 Exercise 1: Write a while loop that starts at the last character in the string and
 works its way backwards to the ﬁrst character in the string, printing each letter on
