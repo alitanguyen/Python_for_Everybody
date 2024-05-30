@@ -25,7 +25,7 @@ if input == 'mbox.txt':
         fhand = open('C:/Users/9360/Desktop/Python/mbox.txt')
         for line in fhand:
             if line.find('X-DSPAM-Confidence:') == -1: continue
-            index = line.find(' ') # Find the first empty space in the line
+            index = line.find(' ') # Find the first empty space on the line
             extract_Number = line[index:] # Use string slicing to extract the ﬂoating-point number on the line
             total = total + float(extract_Number) 
             count = count + 1
@@ -36,7 +36,7 @@ elif input == 'mbox-short.txt':
     fhand = open('C:/Users/9360/Desktop/Python/mbox-short.txt')
     for line in fhand:
             if line.find('X-DSPAM-Confidence:') == -1: continue
-            index = line.find(' ') # Find the first empty space in the line
+            index = line.find(' ') # Find the first empty space on the line
             extract_Number = line[index:] # Use string slicing to extract the ﬂoating-point number on the line
             total = total + float(extract_Number) 
             count = count + 1
