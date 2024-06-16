@@ -35,7 +35,7 @@ for line in fhand:
     words = line.split()
     if len(words) == 0: continue # Skip to the next line if there is a line without any words
     if words[0] != 'From': continue # Skip to the next line if there is a line which does not have 'From' as its first word
-    list = words [1]
+    list = words[1]
     count = count + 1
     print(list)
 

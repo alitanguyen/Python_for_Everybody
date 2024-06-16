@@ -30,7 +30,7 @@ while line != 'done':
         if line == 'done':
             break
         else: 
-            print ('Invalid data')
+            print('Invalid data')
 
 max = max(list)
 min = min(list)

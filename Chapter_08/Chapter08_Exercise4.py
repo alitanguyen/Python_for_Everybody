@@ -28,7 +28,7 @@ new_list = []
 
 fhand = open('romeo.txt')
 for word in fhand: 
-    result = word.split ()
+    result = word.split()
     for unique_word in result: 
         if unique_word not in new_list: 
                 new_list.append(unique_word)
