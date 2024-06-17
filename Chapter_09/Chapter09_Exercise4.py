@@ -63,7 +63,7 @@ def max(counts):
     largest_key = None
     largest_value = None
 # Loop through dictionary items:
-    for key, value in counts.items():   # .itmes() help access both the keys and values at the same time to find the key associated with the largest value.
+    for key, value in counts.items():   # .items() helps access both the keys and values at the same time to find the key associated with the largest value.
         if largest_value is None or value > largest_value:
             largest_value = value 
             largest_key = key
